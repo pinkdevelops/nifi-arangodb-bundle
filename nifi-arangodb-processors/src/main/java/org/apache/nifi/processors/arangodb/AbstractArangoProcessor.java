@@ -126,5 +126,4 @@ public abstract class AbstractArangoProcessor extends AbstractProcessor {
         final String collectionName = context.getProperty(COLLECTION_NAME).getValue();
         return getDatabase(context).collection(collectionName);
     }
-
 }
